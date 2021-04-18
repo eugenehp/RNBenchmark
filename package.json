@@ -1,0 +1,68 @@
+{
+  "name": "rnbenchmark",
+  "description": "Benchmark of random generators in React Native",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@emotion/native": "^11.0.0",
+    "@emotion/react": "^11.1.5",
+    "assert": "^2.0.0",
+    "events": "^3.3.0",
+    "expo-random": "^11.0.0",
+    "get-random-values-polypony": "^1.0.0",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-benchmark": "^0.0.5",
+    "react-native-get-random-values": "^1.7.0",
+    "react-native-randombytes": "^3.6.0",
+    "react-native-randomness": "^0.0.3",
+    "react-native-securerandom": "^1.0.0",
+    "react-native-simple-crypto": "^0.2.15",
+    "react-native-unimodules": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/react-native": "^0.64.0",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "react-test-renderer": "17.0.1",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "author": "Eugene Hauptmann <eugene.hp2012@gmail.com> (https://github.com/eugenehp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eugenehp/RNBenchmark/issues"
+  },
+  "homepage": "https://github.com/eugenehp/RNBenchmark#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenehp/RNBenchmark.git"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
