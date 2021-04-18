@@ -2,6 +2,9 @@
 
 This is a React Native sandbox to test performance of different **Random Number Generator** (RNG) libraries using [this](https://www.npmjs.com/package/react-native-benchmark) benchmark library.
 
+<img alt="perfomance (operations/second)" src="https://user-images.githubusercontent.com/1857263/115140306-78568880-9feb-11eb-8c30-e0d434491547.png">
+
+
 ## Main benchmark code
 
 ```Typescript
