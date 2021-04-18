@@ -56,6 +56,7 @@ cd ios && pod install
 - expo-random required deployment target to be set to iOS 11.
 - change Podfile to `platform :ios, '11.0'`
 - Expo requires [unimodules](https://docs.expo.io/bare/installing-unimodules/)
+- [Android]: Make sure Gradle is set to [6.8](https://github.com/expo/expo/blob/master/android/gradle/wrapper/gradle-wrapper.properties#L6)
 
 ## Benchmark
 

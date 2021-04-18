@@ -12,6 +12,9 @@ target 'RNBenchmark' do
     :hermes_enabled => false
   )
 
+
+  pod 'EXRandom', :path => '../node_modules/expo-random'
+
   target 'RNBenchmarkTests' do
     inherit! :complete
     # Pods for testing
